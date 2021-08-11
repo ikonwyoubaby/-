@@ -1,0 +1,29 @@
+{
+    "name": "露露书",
+    "url": "m.lulus12.com",
+    "version": 100,
+    "search": {
+        "url": "https://m.lulus12.com/home/search@post->action=search&q=${key}",
+        "charset": "utf-8",
+        "list": "ul > li",
+        "name": "span > a",
+        "author": "span > a",
+        "cover": "a > img",
+        "summary": "",
+        "detail": "a"
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "ul > li",
+        "name": "a",
+        "chapter": "a",
+        "page":""
+    },
+    "chapter": {
+        "content": "#BookText",
+        "purify": [""],
+        "page":".content_btn > div:nth-child(3) > a:matches(下一页)"
+    }
+}
