@@ -1,9 +1,9 @@
 {
-    "name": "露露书",
-    "url": "m.lulus12.com",
+    "name": "锅巴",
+    "url": "m.guoguoba.net",
     "version": 100,
     "search": {
-        "url": "https://m.lulus12.com/home/search@post->action=search&q=${key}",
+        "url": "https://m.guoguoba.net/home/search@post->action=search&q=${key}",
         "charset": "utf-8",
         "list": "ul > li",
         "name": "span > a",
